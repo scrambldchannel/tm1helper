@@ -53,28 +53,8 @@
 		],
 		"snippets": [
 			{
-				"language": "tm1process",
-				"path": "./snippets/custom.rule.codeblocks.json"
-			},
-			{
-				"language": "tm1process",
-				"path": "./snippets/custom.process.codeblocks.json"
-			},
-			{
-				"language": "tm1process",
-				"path": "./snippets/cdc.process.codeblocks.json"
-			},
-			{
-				"language": "tm1rule",
-				"path": "./snippets/cdc.rule.codeblocks.json"
-			},
-			{
 				"language": "tm1rule",
 				"path": "./snippets/tm1.rule.snippets.json"
-			},
-			{
-				"language": "tm1rule",
-				"path": "./snippets/tm1.rule.codeblocks.json"
 			},
 			{
 				"language": "tm1rule",
@@ -91,6 +71,14 @@
 			{
 				"language": "tm1process",
 				"path": "./snippets/tm1.mdx.snippets.json"
+			},
+			{
+				"language": "tm1process",
+				"path": "./snippets/bedrock.process.codeblocks.json"
+			},
+			{
+				"language": "tm1process",
+				"path": "./snippets/bedrock3.process.codeblocks.json"
 			}
 		],
 		"themes": [
