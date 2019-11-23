@@ -1,9 +1,48 @@
 {
 	"bedrock_}bedrock.security.refresh": {
-		"prefix": "bedrock_}bedrock.security.refresh",
+		"prefix": "bedrock.security.refresh",
 		"description": "Executes the }bedrock.security.refresh process",
 		"body": [
 			"ExecuteProcess('}bedrock.security.refresh');"
 		]
+	},
+
+	"bedrock_}bedrock.cube.rule.processfeeders": {
+		"prefix": "bedrock.cube.rule.processfeeders",
+		"description": "Executes the }bedrock.cube.rule.processfeeders process",
+		"body": [
+			"ExecuteProcess('}bedrock.security.refresh', 'pLogOutput', 0, 'pCube', ${1:sCubeName}, 'pDelim', '&');" 
+		]
+	},
+
+	"bedrock_}bedrock.dim.attr.create": {
+		"prefix": "bedrock.dim.attr.create",
+		"description": "Executes the }bedrock.dim.attr.create process",
+		"body": [
+			"ExecuteProcess( '}bedrock.dim.attr.create'",
+			"    , 'pLogOutput', 0",
+			"    , 'pDim', ${1:sDimName}",
+			"    , 'pAttr', '${2:sAttr}'",
+			"    , 'pPrevAttr', ''",
+			"    , 'pAttrType', '${3:sAttrType}'",
+			"    , 'pDelim', '&'",
+			");"
+		]
+	},
+
+	"bedrock_}bedrock.hier.unwind": {
+		"prefix": "bedrock.hier.unwind",
+		"description": "Executes the }bedrock.hier.unwind process",
+		"body": [
+			"ExecuteProcess( '}bedrock.dim.attr.create'",
+			"    , 'pLogOutput', 0",
+			"    , 'pDim', ${1:sDimName}",
+			"    , 'pHier', '${2:sHier}'",
+			"    , 'pConsol', '${3:sConsol}'",
+			"    , 'pRecursive', 0",
+			"    , 'pDelim', '&'",
+			");"
+		]
 	}
+	
 }
