@@ -262,6 +262,7 @@
     "ViewTitleDimensionSet":{"prefix":"ViewTitleDimensionSet", "body":["ViewTitleDimensionSet( ${1:sCubeName}, ${2:sViewName}, ${3:sDimName} );"]},
     "ViewTitleElementSet":{"prefix":"ViewTitleElementSet", "body":["ViewTitleElementSet( ${1:sCubeName}, ${2:sViewName}, ${3:sDimName}, ${4:nIndex} );"]},
     "ViewZeroOut":{"prefix":"ViewZeroOut", "body":["ViewZeroOut( ${1:sCubeName}, ${2:sViewName} );"]},
+    "ReturnViewHandle":{"prefix:""ReturnViewHandle", "body":["ReturnViewHandle( ${1:sCubeName}, ${2:sViewName} );"]},
     "AddInfoCubeRestriction":{"prefix":"AddInfoCubeRestriction", "body":["AddInfoCubeRestriction( ${1:sCharactName}, ${2:sSign}, ${3:sCompOperator}, ${4:sLowValue}, ${5:sHighValue} );"]},
     "ExecuteJavaN":{"prefix":"ExecuteJavaN", "body":["ExecuteJavaN( ${1:sJavaTIClassName}, ${2:[sParameter1]}, ${3:[sParameter2]}, ${4:[...]} );"]},
     "ExecuteJavaS":{"prefix":"ExecuteJavaS", "body":["ExecuteJavaS( ${1:sJavaTIClassName}, ${2:[sParameter1]}, ${3:[sParameter2]}, ${4:[...]} );"]},
