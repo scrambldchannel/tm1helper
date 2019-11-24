@@ -79,6 +79,10 @@
 			{
 				"language": "tm1process",
 				"path": "./snippets/bedrock3.process.codeblocks.json"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/tm1py.python.snippets.json"
 			}
 		],
 		"themes": [

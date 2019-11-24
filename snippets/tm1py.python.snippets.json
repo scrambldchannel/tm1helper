@@ -1,0 +1,30 @@
+{
+    "import objects": {
+        "prefix": "impObjects",
+        "body": [
+            "from TM1py.Objects import Cube, Dimension, Hierarchy, Element"
+        ],
+        "description": "Import common objects"
+    },
+    "import service": {
+        "prefix": "impService",
+        "body": [
+            "from TM1py.Services import TM1Service"
+        ],
+        "description": "Import service"
+    },
+    "import utils": {
+        "prefix": "impUtils",
+        "body": [
+            "from TM1py.Utils import Utils"
+        ],
+        "description": "Import utils"
+    },
+    "with service": {
+        "prefix": "withService",
+        "body": [
+            "with TM1Service(address= address, port=port, user=user, password=password, ssl=ssl) as tm1:"
+        ],
+        "description": "With service"
+    }
+}
